@@ -36,7 +36,7 @@ defmodule ExAdmin.LayoutView do
 
   def footer_content do
     default = """
-      Powered by ExAdmin. Licensed by&nbsp;
+      Powered by Inferenxe. Licensed by&nbsp;
       <a href="http://emetrotel.com" target="_blank">E-MetroTel</a>
       &nbsp;&copy 2013-#{DateTime.utc_now.year}.
     """
