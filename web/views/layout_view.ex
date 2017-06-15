@@ -29,7 +29,7 @@ defmodule ExAdmin.LayoutView do
   end
 
   def logo_full do
-    default = "Ex<b>Admin</b>"
+    default = "Inferenxe<b>Admin</b>"
     Application.get_env(:ex_admin, :logo_full, default)
     |> Phoenix.HTML.raw
   end
