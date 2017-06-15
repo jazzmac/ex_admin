@@ -23,22 +23,22 @@ defmodule ExAdmin.LayoutView do
   end
 
   def logo_mini do
-    default = "Ex<b>A</b>"
+    default = "Ix<b>A</b>"
     Application.get_env(:ex_admin, :logo_mini, default)
     |> Phoenix.HTML.raw
   end
 
   def logo_full do
-    default = "Ex<b>Admin</b>"
+    default = "Inferenxe<b>Admin</b>"
     Application.get_env(:ex_admin, :logo_full, default)
     |> Phoenix.HTML.raw
   end
 
   def footer_content do
     default = """
-      Powered by ExAdmin. Licensed by&nbsp;
-      <a href="http://emetrotel.com" target="_blank">E-MetroTel</a>
-      &nbsp;&copy 2013-#{DateTime.utc_now.year}.
+      Powered by InferenxeAdmin.
+      <a href="http://www.inferenxe.iom" target="_blank">inferenxe</a>
+      &nbsp;&copy #{DateTime.utc_now.year}.
     """
 
     Application.get_env(:ex_admin, :footer, default)
